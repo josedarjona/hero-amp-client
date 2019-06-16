@@ -1,0 +1,103 @@
+p{
+    width: 60%;
+    margin-top: 50px;
+}
+
+.p-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.orange-form{
+    display: flex;
+    justify-content: center;
+}
+
+.orange-form form{
+    background-color: #b49449;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    margin: 5%;
+    padding: 35px 25px;
+}
+
+.fieldSet{
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+}
+
+.fieldSet *{
+  display: block;
+  text-align: left;
+}
+
+.fieldSet input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #b49449;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 4px;
+
+}
+
+.fieldSet select{
+    background-color: #b49449;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 4px;
+}
+
+.fieldSet textarea{
+    background-color: #b49449;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 4px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 25px;
+    position: relative;
+    /* left: 18%; */
+}
+
+.faq-drop, .answer{
+    width: 75%;
+    padding:15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 5px;
+}
+
+
+
+
+.faq-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    margin-bottom: 75px;
+}

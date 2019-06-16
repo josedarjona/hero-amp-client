@@ -1,0 +1,367 @@
+
+
+#hp-main-image{
+    background-image: url('/images/hp-img-temp.png');
+    height: 580px;
+    background-size: cover;
+}
+
+#mid-hp-vids{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#first-row-vid-thumbs img, #second-row-vid-thumbs img{
+    margin: 0 25px 50px 25px;
+}
+
+#latest-vid-h2{
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#see-all-vids-btn{
+    margin: 50px 0 80px 0;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#sponsored-hp-ad{
+    height: 200px;
+    background-color: #515151;
+    color: #b7b7b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contest-section{
+    background-image: url('/images/fake-contest-section.png');
+    height: 500px;
+    background-size: cover;
+}
+
+#hp-carousel-ads{
+    height: 320px;
+    background-color: #3d3d3d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}  
+
+#hp-carousel-ads img{
+    width: 275px;
+}
+
+#hp-carousel-ads .fas{
+    color: #d6d6d6;
+}
+
+#hp-soc-med-prevs{
+    display: flex;
+    justify-content: center;
+}
+
+#facebook-div{
+    margin: 50px;
+    width: 240px;
+    height: 350px;
+  
+}
+
+#instagram-div{
+    margin: 50px;
+    width: 240px;
+    height: 350px;
+    background-image: url('/images/insta-prev.png');
+}
+
+#twitter-div{
+    margin: 50px;
+    width: 240px;
+    height: 350px;
+    background-image: url('/images/twitter-prev.png'); 
+}
+
+#hp-soc-med-section h2{
+    margin: 50px 0;
+}
+
+#non-prof-section{
+    background-color: #caa453;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 487px;
+}
+
+#nonprofimage{
+    height: 100%;
+}
+
+#non-prof-left-side{
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+#non-prof-left-side h2{
+    color: white;
+    font-size: 22px;
+}
+
+#non-prof-left-side p{
+    font-size: 12px;
+}
+
+#non-prof-left-side button{
+    margin: 35px 0 0 0;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#hp-sponsored-add-bottom{
+    height: 200px;
+    background-color: #515151;
+    color: #b7b7b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* =--=-=-=-=-=-=-=-=-=-begin gallery preview stuff =-=-=-=-=-=-=-=-=-=-=-= */
+
+#hp-gallery-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hp-gallery-container{
+    height: 700px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+#hp-gallery-container .col-1{
+    height: 100%;
+    width: 20%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hp-gallery-container .col-2{
+    height: 100%;
+    width: 40%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    
+}
+
+#row-1-col-1{
+    background-image: url('/images/hp-gallery-square.png');
+    height: 32%;
+    width: 98%;
+    
+}
+
+#row-2-col-1{
+    height: 64%;
+    width: 98%;
+    background-image: url('/images/hp-gallery-pic-vertical.png');
+  
+}
+
+
+#row-1-col-2{
+    width: 97%;
+    height: 32%;
+    background-image: url('/images/hp-gallery-pic-horizontal.png');
+}
+
+#row-2-col-2{
+    width: 98%;
+    height: 31%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#row-2-col-2a, #row-2-col-2b{
+    width: 48%;
+    height: 100%;
+    background-image: url('/images/hp-gallery-square.png');
+}
+
+#row-3-col-2{
+    width: 98%;
+    height: 31%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#row-3-col-2a{
+    width: 49%;
+    height: 100%;
+    background-image: url('/images/hp-gallery-square.png');
+}
+
+#row-3-col-2b{
+    width: 49%;
+    height: 100%;
+    background-image: url('/images/ad-pic.png');
+}
+
+
+
+
+
+#hp-gallery-section button{
+
+    background-color: black;
+    color: white;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 40px 0 40px 0;
+}
+
+#hp-gallery-section h2{
+    margin: 70px 0;
+}
+
+#top-row-right-side{
+    width: 98%;
+    height: 64%;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+#bottom-row-right-side{
+    width: 98%;
+    height: 32%;
+    background-image: url('/images/hp-gallery-pic-horizontal.png');
+}
+
+#top-row-right-side .first-column{
+    width: 50%;
+    height: 100%;
+    background-image: url('/images/hp-gallery-pic-vertical.png');
+}
+
+#top-row-right-side .second-column{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#top-row-right-side .second-column .square{
+   width: 100%;
+   height: 48%;
+   background-image: url('/images/hp-gallery-square.png');
+ 
+}
+
+
+
+
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- gallery preview stuff end =-=-=-=-=-=-=-=-=- */
+
+#join-the-club{
+    height: 280px;
+    background-color: #caa453;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#join-club-wrapper{
+    width: 25%;
+}
+
+#join-club-wrapper h2{
+    margin: 0;
+}
+
+#join-club-wrapper p{
+    font-size: 12px;
+}
+
+#join-club-wrapper form{
+    display: flex;
+    justify-content: space-around;
+}
+
+#join-club-wrapper input{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+#join-club-wrapper button{
+
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+@Media only screen and (max-width: 1100px){
+    .hide-when-small{
+        display: none !important;
+    }
+}
+
+
+@Media only screen and (max-width: 850px){
+    .hide-when-tiny{
+        display: none !important;
+    }
+}
+
+@Media only screen and (max-width: 700px){
+    .hide-when-teeny-tiny{
+        display: none !important;
+    }
+}

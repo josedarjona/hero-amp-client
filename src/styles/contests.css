@@ -1,0 +1,131 @@
+#contest-image-section{
+    background-color: #caa453;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 487px;
+}
+
+#contest-image{
+    height: 100%;
+}
+
+#contest-right-side{
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+#contest-right-side h2{
+    color: white;
+   
+}
+
+#contest-right-side p{
+    font-size: 12px;
+}
+
+#contest-right-side button{
+    margin: 35px 0 0 0;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#be-the-first-to-know-section{
+    height: 220px;
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#be-the-first-to-know-section p{
+    width: 45%;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+#be-the-first-to-know-section h2{
+    font-size: 18px;
+    margin: 0;
+}
+
+#be-the-first-to-know-section form{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#be-the-first-to-know-section input{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+#be-the-first-to-know-section button{
+
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+#conversation-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+
+
+#conversation-section p{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+
+.fb-column, .insta-column, .twitter-column{
+    height: 900px;
+    overflow: scroll;
+    margin: 20px;
+}
+
+.fb-thumb, .insta-thumb, .twitter-thumb{
+    width: 250px;
+    height: 280px;
+    
+    background-size: cover;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.fb-thumb{
+    background-image: url("/images/fake-fb.png");
+}
+
+.insta-thumb{
+    background-image: url("/images/fake-insta.png"); 
+}
+
+.twitter-thumb{
+    background-image: url("/images/fake-twitter.png");
+}
+
